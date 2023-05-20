@@ -1,0 +1,12 @@
+{
+    "name": "Physical Seekbar Extension",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "Physical Seekbar Control for Chrome",
+    "content_scripts": [{
+        "matches": ["https://www.youtube.com/*"],
+        "js": [
+          "main.js"
+        ]
+      }]
+}
